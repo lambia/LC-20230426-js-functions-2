@@ -21,6 +21,7 @@ div#grid {
 }
 
 div#grid .square {
+    /* HO USATO FLOAT CON DIMENSIONI CALCOLATE DA CONTENITORE FISSO, MA AVETE LIBERA SCELTA */
     float: left;
     width: calc(100% / 8);
     height: calc(100% / 8);
